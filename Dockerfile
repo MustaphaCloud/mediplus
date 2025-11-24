@@ -3,7 +3,7 @@ FROM nginx:latest
 
 RUN rm -rf /usr/share/nginx/html/*
 
-# define working directory(directoiry inside container)
+# define working directory
 WORKDIR /usr/share/nginx/html
 
 #copy from host to container
